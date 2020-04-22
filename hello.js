@@ -1,12 +1,12 @@
-function sayHello(name) {
+let returnSayHello = function (name) {
   console.log("Hello, " + name);
-}
+};
 
-sayHello("samantha");
+returnSayHello("samantha");
 
-function returnSayHello(name) {
+let returnSayHello2 = function (name) {
   return "Hello, " + name;
-}
-const greeting = returnSayHello("John");
+};
+const greeting = returnSayHello2("John");
 
 console.log(greeting);
